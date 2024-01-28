@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %} Home {% endblock title %}
+
+{% block content %}
+<section class="blog-posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="all-blog-posts">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            {% if user.userprofile.is_premium_user == "NO" %}
+                                <div class="main-button">
+                                    <p><a href="{% url 'request_premium_access' %}">Request Premium Access</a></p>
+                                </div>
+                            {% elif user.userprofile.is_premium_user == "PENDING" %}
+                                <div class="notification">
+                                    <p>Your request for premium access is pending approval.</p>
+                                </div>
+                            {% elif user.userprofile.is_premium_user == "YES" %}
+                                <div class="notification">
+                                    <p>You have premium access.</p>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

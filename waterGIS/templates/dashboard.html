@@ -1,0 +1,15 @@
+{% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }}!</p>
+    
+    {% if user.userprofile.can_download %}
+        <a href="{% url 'download_data' %}">Download Data</a>
+    {% else %}
+        {% if user.userprofile.requested_permission %}
+            <p>You have requested access to private data. Please wait for approval.</p>
+        {% else %}
+            <a href="{% url 'request_permission' %}">Request Access to Private Data</a>
+        {% endif %}
+    {% endif %}
+{% else %}
+    <p>Please <a href="{% url 'login' %}">login</a> to access your dashboard.</p>
+{% endif %}

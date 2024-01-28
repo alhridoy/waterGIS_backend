@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "Chapter": "Fake Chapter 1",
+        "Agency": "Fake Agency 1",
+        "Population": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.188663604676748, 36.860803065828208]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "Chapter": "Fake Chapter 2",
+        "Agency": "Fake Agency 2",
+        "Population": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.18930426069484, 36.860750557084486]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "Chapter": "Fake Chapter 3",
+        "Agency": "Fake Agency 3",
+        "Population": 3000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.190013477577622, 36.860605808348701]
+      }
+    }
+  ]
+}

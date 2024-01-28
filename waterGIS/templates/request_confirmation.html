@@ -1,0 +1,8 @@
+{% if messages %}
+    {% for message in messages %}
+        <p>{{ message }}</p>
+    {% endfor %}
+{% else %}
+    <p>Thank you for requesting access. Your request has been submitted and is pending approval.</p>
+{% endif %}
+<a href="{% url 'home2' %}">Go back to Dashboard</a>

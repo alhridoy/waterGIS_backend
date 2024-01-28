@@ -1,0 +1,221 @@
+{
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -109.05252169966479,
+          35.674359520128618
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "Name" : "Window Rock"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.23786341424734,
+          36.125214775374552
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "Name" : "Tuba City"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -108.68090451003795,
+          36.786477005853435
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "Name" : "Shiprock"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -109.57645835023997,
+          36.15510694841705
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "Name" : "Chinle"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -110.23484120485169,
+          36.714648966090159
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "Name" : "Kayenta"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -108.15198432270454,
+          35.678072749819357
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "Name" : "Crownpoint"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -108.73961530039236,
+          35.527702540167198
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "Name" : "Gallup"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -107.85682666380771,
+          35.169234473582826
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "Name" : "Grants"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.61905171036859,
+          35.201051192975264
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "Name" : "Flagstaff"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.45744227594987,
+          36.927785788662781
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "Name" : "Page"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -108.73961530039236,
+          35.527702540167198
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "Name" : "Gallup"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -107.85682666380771,
+          35.169234473582826
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "Name" : "Grants"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.61905171036859,
+          35.201051192975264
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "Name" : "Flagstaff"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.45744227594987,
+          36.927785788662781
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "Name" : "Page"
+      }
+    }
+  ]
+}

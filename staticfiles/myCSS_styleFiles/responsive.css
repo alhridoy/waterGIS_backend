@@ -1,0 +1,53 @@
+@media (max-width: 767px) {
+  .col-md-12 {
+    padding: 0;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .table-responsive {
+      width: 100%;
+      overflow-x: auto;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  /* Collapse the navbar toggle button and make it full width */
+  .navbar-toggle {
+    float: none;
+    width: 100%;
+  }
+  
+  /* Hide the navbar collapse menu by default */
+  .navbar-collapse {
+    display: none;
+  }
+  
+  /* Show the navbar collapse menu when the toggle button is clicked */
+  .navbar-toggle:focus ~ .navbar-collapse,
+  .navbar-toggle:active ~ .navbar-collapse {
+    display: block;
+  }
+  
+  /* Add styles to the navbar links in the collapsed menu */
+  .navbar-collapse ul.nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-collapse ul.nav > li {
+    display: block;
+  }
+  
+  .navbar-collapse ul.nav > li > a {
+    padding: 10px;
+  }
+}
